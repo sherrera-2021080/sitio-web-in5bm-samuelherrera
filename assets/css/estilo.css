@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+   padding: 0px;
+}
+
+header{
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#menu {
+    background-color: #eeeeee;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    border: 2px solid yellowgreen;
+}
+#menu ul li a {
+    color: #444444;
+    padding: 15px;
+    display: block;
+}
+
+#menu ul li a:hover{
+    background-color: yellow;
+    color: white;
+
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#contenido {
+    padding: 100px;
+    color: 4px solid #23376d;
+}
+
+.descripcion {
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px;
+    padding-left:  150px;
+    padding-right: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#img-principal{
+    padding: 20px;
+    margin: 100px auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.images{
+    padding-right: 100px;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#contenido-bi {
+    padding: 100px;
+    color: 4px solid #23376d;
+}
+
+.parrafo{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px;
+    padding-left:  150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-videos{
+    width: 350px;
+    margin: 0px auto;
+    display: block;
+}
+#contenido-vi table tr th:hover{
+    background-color: #23376d;
+    color: white;
+
+}
+
+.parrafo-vi {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contenido-vi {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo-vi{
+    font-size: 15px;
+    margin: 15px;
+    padding-left: 25x;
+    padding-right: 25px;
+    color: #444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

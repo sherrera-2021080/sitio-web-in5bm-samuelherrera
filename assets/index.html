@@ -1,69 +1,156 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <title>Fundación Kinal</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/css/hoja-estilo-kinal.css"
+            />
 
-<head>
-    <title>Samuel Herrera</title>
-    <meta charset="utf-8" />
-</head>
+            <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
+        <!--
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+        -->
 
-<body>
-
-    <header>
-        <!-- Encabezado de la página-->
-        <h1>Bienvenidos</h1>
-        <link rel="stylesheet" type="text/css" href="./css/estilo.css" />
-    </header>
-
-    <nav id="menu">
-        <!--Menú de Navegación-->
-        <ul>
-            <li>
-                <a href="./index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="./biografia.html">biografia</a>
-            </li>
-            <li>
-                <a href="./videos.html">Videos Favoritos</a>
-            </li>
-        </ul>
-        <div class="clearfix"></div>
-    </nav>
-
-    <main>
-        <!--Aqui va a ir el contenido principal de la página-->
-        <section>
-            <article id="contenido"> 
-
-                <div class="presentacion">
-                    <ul class="images">
-                      <li>
-                        <img src="./images/image2.jpg" />
-                      </li>
+        <link rel="stylesheet" type="text/css" href="./assets/css/flexslider.css" />
+    </head>
+    <body>
+        <header>
+            <!-- Enacabezado de la página -->
+            <h1>Centro Educativo Técnico Laboral KINAL</h1>
+        </header> 
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menú</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./carreras-tecnicas.html">Carreras técnicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./inscripcion.html">Inscripción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
                     </ul>
                 </div>
+            </div>
+        </nav>     
 
-                <p class="descripcion">El objetivo de esta página web es transmitir información sobre el autor,
-                    su biografia o videos favoritos.
-                </p>
-                <P class="descripcion">
-                    Está página esta dirigida a todo aquel que necesite información sobre el autor de esta página.
-                </P>
-                <p class="descripcion">
-                    ¡¡¡Gracias por visitar mi página web!!!
-                </p>
-                
-            </article>
-        </section>
-    </main>
+        <main>
+            <!-- Contenido principal de la página -->
+            <section>
+                <article id="contenido">
+                    <div id="imagen-kinal">
+                        <!-- Place somewhere in the <body> of your page -->
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img
+                                        class="img-slider"
+                                        src="./assets/Images/kinal.png"
+                                        width="1024"
+                                        />
+                                </li>
 
-    <aside>
-        <!--Aqui va a ir el contenido secundario-->
-    </aside>
-    <footer>
-        <!--Aqui va el pie de página-->
-        <p>Todos los derechos reservados &copy; 2022 - Samuel Herrera</p>
-    </footer>
-</body>
+                                <li>
+                                    <img class="img-slider" src="./assets/Images/slider1.jpg" />
+                                </li>
+                                <li>
+                                    <img class="img-slider" src="./assets/Images/slider2.png" />
+                                </li>
+                                <li>
+                                    <img class="img-slider" src="./assets/Images/slider 3.jpg" />
+                                </li>
+                                <li>
+                                    <img class="img-slider" src="./assets/Images/slider4.jpg" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <br />
+                    
+                    <div></div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-1   col-md-2"></div>
+                            <div class="col-10  col-md-8">
+                                <p class="descripcion">
+                                    Kinal es un Centro Educativo privado, no lucrativo, dirigido a la
+                                    formación técnica profesional de jóvenes y adultos, de beneficio
+                                    colectivo y asistencia social en favor de los sectores más
+                                    necesitados de la comunidad.
+                                </p>
+                                <p class="descripcion">
+                                    Nuestro valor fundamental es enseñar a realizar el trabajo bien
+                                    hecho, que sea la base de la superación de alumnos y el medio para
+                                    servir a los demás.
+                                </p>
+                            </div>
+                            <div class="col-1   col-md-2"></div>
+                        </div>
+                    </div>
+
+
+
+
+                    <br />
+                    <br />
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <!-- Aquí va ir el contenido secundario -->
+        </aside>
+
+        <footer>
+            <!-- Aquí va el pie de página -->
+            <p>Todos los derechos reservados &copy; 2022 - Samuel Herrera</p>
+        </footer>
+
+
+        <!-- Acá agregamos el javascript -->
+
+        <script type="text/javascript" src="./assets/js/jquery-3.6.0.js"></script>
+
+        <script
+            type="text/javascript"
+            src="./assets/js/jquery-migrate-3.4.0.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="./assets/js/jquery-migrate-1.4.1.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="./assets/js/jquery.flexslider.js"
+        ></script>
+
+        <script type="text/javascript" src="./assets/js/script.js"></script>
+
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        -->
+
+        <script type="text/javascript" src="./assets/js/bootstrap.bundle.js" ></script>
+    </body>
+
 
 </html>
